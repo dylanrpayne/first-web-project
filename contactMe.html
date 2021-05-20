@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link type="text/css" rel="stylesheet" href="./style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type='text/javascript' src='./script.js'></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="header-navbar">
+                <a href="index.html" class="navbar-home">Cape Town MTB</a>
+                <a class="navbar-buttons" href="aboutMe.html">About Me</a>
+                <a class="navbar-buttons" href="contactMe.html">Contact Me</a>
+                <a class="navbar-buttons" href="saved.html">Saved items</a>
+                <a class="navbar-buttons" href="comments.html">Comments</a>
+                <a name="top"></a>
+            </div>
+            <div class="main-container">
+                <!-- Another required block -->
+                <div class="main-container-heading">
+                    <h1>Contact me</h1>
+                    <br>
+                    <p>Use the following form to contact me: </p>
+                    <br>
+                    <!-- Required submit button form -->
+                    <div class="contact-me-div">
+                        <form class="contact-me-form">
+                            <label>First name: </label><br>
+                            <input type="text" size="30" id="first-name-input"><br><br>
+                            <label>Surname: </label><br>
+                            <input type="text" size="30" id="surname-input"><br><br>
+                            <label>Subject: </label><br>
+                                <!-- Required radio group -->
+                                <input type="radio" id="rg-suggestion" name="subject" value="Suggetion"><label>Suggestion</label><br>
+                                <input type="radio" id="rg-complaint" name="subject" value="Complaint"><label>Complaint</label><br>
+                                <input type="radio" id="rg-enquiry" name="subject" value="Business Enquiry"><label>Buisiness Enquiry</label><br>
+                                <input type="radio" id="rg-other" name="subject" value="Other"><label>Other</label><br><br>
+                            <label>Message: </label><br>
+                            <textarea rows="10" cols="30" id="message-input"></textarea><br><br>
+                            <input type="button" value="Submit" id="submit-button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <footer class="main-footer">
+            <a href="#top" class="back-to-top-btn">Back to top</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,192 @@
+$dark-green: rgb(97,118,106);
+$light-green: rgb(193,204,167);
+$header-height: 70px;
+$light-orange: rgb(220,175,143);
+$navy: rgb(58,43,66);
+
+// Resetting browser defaults
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+// Function to centre certain things
+@mixin centre-margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: $light-orange;
+    // this is to make sure footer stays at the bottom of the page
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: $navy;
+    font-weight: 500;
+    font-size: 50px;
+}
+td {
+    border: 1px solid $navy;
+    border-radius: 2px;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p {
+    color: $navy;
+    font-size: 18px;
+}
+h3 {
+    font-weight: 100;
+    color: $navy;
+}
+ul {
+    list-style-type: circle;
+    color: $navy;
+}
+li {
+    margin: 10px;
+}
+
+.table-image {
+    width: 200px;
+    border: 1px solid $navy;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.navbar-buttons {
+    font-size: 24px;
+    border: 2px solid $light-orange;
+    border-radius: 5px;
+    padding: 4px;
+    vertical-align: middle;
+}
+.navbar-buttons:hover {
+    background-color: $light-orange;
+    color: $navy;
+}
+.main-header {
+    width: 100%;
+    height: $header-height;
+    background-color: $navy;
+    color: $light-orange;
+}
+.header-navbar {
+    padding-left: 20px;
+    height: $header-height;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: $navy;
+}
+.main-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: auto;
+    width: 90%;
+    @include centre-margin();
+    border: 5px solid $navy;
+    border-radius: 6px;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}
+.main-container-heading {
+    text-align: center;
+    margin: 20px;
+}
+.main-footer {
+    background-color: $navy;
+    color: $light-orange;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: auto;
+    height: 50px;
+    padding-top: 5px;
+}
+.navbar-home {
+    font-size: 30px;
+}
+// These 2 elements change when the user hovers their mouse over them
+.navbar-home:hover {
+    text-decoration: underline;
+}
+.back-to-top-btn:hover {
+    border: 1px solid $light-orange;
+    border-radius: 2px;
+}
+.social-media-handles {
+    display: flex;
+    justify-content: center;
+}
+.social-media-img {
+    width: 40px;
+    height: 40px;
+}
+.contact-me-div {
+    color: $navy;
+    margin-left: 43.5%;
+}
+.contact-me-form {
+    text-align: left;
+}
+.comment-form-div {
+    color: $navy;
+    margin-left: 43.5%;
+    display: none;
+}
+.testimonial {
+    background-color: $navy;
+    text-align: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding: 5px;
+    p {
+        color: $light-orange;
+    }
+    cursor: pointer;
+}
+
+#mtb-table {
+    align-self: center;
+    @include centre-margin();
+}
+#strava-img {
+    filter: invert(100%);
+}
+#location-list-div {
+    text-align: center;
+}
+#add-comment-button {
+    // margin-left: 46.5%;
+    display: flex;
+    margin: auto;
+    padding: 3px;
+    font-size: 14px;
+}
+#comments {
+    text-align: center;
+    align-self: center;
+    margin-top: 20px;
+    p {
+        @include centre-margin();
+        border: 2px solid $navy;
+        border-radius: 6px;
+        width: 900px;
+        align-self: center;
+        padding: 5px;
+        display: none;
+    }
+}
+#location-list {
+    display: none;
+}
+#location-list-heading {
+    cursor: pointer;
+}

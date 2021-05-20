@@ -1,0 +1,81 @@
+<!-- This is a comment in HTML -->
+<!-- Don't worry too much about what's in this file for now, the only this you need to look at is the <script> tag -->
+<!doctype html> 
+<html>
+<head>
+    <title>MTB</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type='text/javascript' src='./script.js'></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-navbar">
+            <a href="index.html" class="navbar-home">Cape Town MTB</a>
+            <a class="navbar-buttons" href="aboutMe.html">About Me</a>
+            <a class="navbar-buttons" href="contactMe.html">Contact Me</a>
+            <a class="navbar-buttons" href="saved.html">Saved items</a>
+            <a class="navbar-buttons" href="comments.html">Comments</a>
+        </div>
+        <a name="top"></a>
+    </header>
+    <div class="main-container">
+        <!-- Required block -->
+        <div class="main-container-heading">
+            <h1>Welcome! On this page I talk about mountain biking in Cape Town</h1>
+            <br>
+            <p>There are many places to go mountain biking in Cape Town. Below are 3 of my favourite spots:</p>
+        </div>
+        <br><br>
+        <!-- 3 of the required images and the required table -->
+        <table id="mtb-table">
+            <tr>
+                <td>Tokai</td>
+                <td>Tokai is the most famous MTB spot in the southern suburbs by far. It has trails for beginner and advanced riders.</td>
+                <td><img src="./tokai-mtb.jpg" class="table-image" id="tokai-img"></td>
+                <td class="like-button" id="like-button-1">&#128077</td>
+            </tr>
+            <tr>
+                <td>Table Mountain</td>
+                <td>Table Mountain has some beautiful trails to ride on, with amazing views over the city bowl.</td>
+                <td><img src="./tblmtn-mtb.jpg" class="table-image" id="tblmtn-img"></td>
+                <td class="like-button" id="like-button-2">&#128077</td>
+            </tr>
+            <tr>
+                <td>Cape Winelands</td>
+                <td>The Cape Winelands hosts some of the most famous MTB races in the world.</td>
+                <td><img src="./winelands-mtb.jpg" class="table-image" id="winelands-img"></td>
+                <td class="like-button" id="like-button-3">&#128077</td>
+            </tr>
+        </table>
+        <br><br>
+        <!-- Required list -->
+        <div id="location-list-div">
+            <h3 id="location-list-heading">Some other places to ride in and around Cape Town include: </h3>
+            <ul id="location-list">
+                <li>Meerendal</li>
+                <li>Boshendal Trails</li>
+                <li>Bloemendal</li>
+                <li>Paarl Trails</li>
+                <li>Stellenbosch Trails</li>
+                <li>Oak Valley</li>
+                <li>Hermanus</li>
+            </ul>
+        </div>
+        <!-- Required testimonial -->
+        <div class="testimonial" id="testimonial1">
+            <p>The fact that it takes place in South Africa, helped me make the decision. I love riding and looking at beautiful scenery at the same time.</p>
+            <p>- Alain Prost (4 time F1 champion)</p> 
+        </div>
+    </div>
+    <footer class="main-footer">
+        <a href="#top" class="back-to-top-btn">Back to top</a>
+    </footer>
+</body>
+
+</html>
+
+<!-- The HTML and JavaScript files for these next two compulsory tasks have been created for you. 
+Have a look at the HTML files for each one to see how they have been linked to the relevant 
+JavaScript files. You will be creating your own HTML and JavaScript files from now on. -->

@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: #dcaf8f;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  color: #3a2b42;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+td {
+  border: 1px solid #3a2b42;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  color: #3a2b42;
+  font-size: 18px;
+}
+
+h3 {
+  font-weight: 100;
+  color: #3a2b42;
+}
+
+ul {
+  list-style-type: circle;
+  color: #3a2b42;
+}
+
+li {
+  margin: 10px;
+}
+
+.table-image {
+  width: 200px;
+  border: 1px solid #3a2b42;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.navbar-buttons {
+  font-size: 24px;
+  border: 2px solid #dcaf8f;
+  border-radius: 5px;
+  padding: 4px;
+  vertical-align: middle;
+}
+
+.navbar-buttons:hover {
+  background-color: #dcaf8f;
+  color: #3a2b42;
+}
+
+.main-header {
+  width: 100%;
+  height: 70px;
+  background-color: #3a2b42;
+  color: #dcaf8f;
+}
+
+.header-navbar {
+  padding-left: 20px;
+  height: 70px;
+  display: table-cell;
+  vertical-align: middle;
+  background-color: #3a2b42;
+}
+
+.main-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #3a2b42;
+  border-radius: 6px;
+  overflow-y: hidden;
+  padding-bottom: 20px;
+}
+
+.main-container-heading {
+  text-align: center;
+  margin: 20px;
+}
+
+.main-footer {
+  background-color: #3a2b42;
+  color: #dcaf8f;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: auto;
+  height: 50px;
+  padding-top: 5px;
+}
+
+.navbar-home {
+  font-size: 30px;
+}
+
+.navbar-home:hover {
+  text-decoration: underline;
+}
+
+.back-to-top-btn:hover {
+  border: 1px solid #dcaf8f;
+  border-radius: 2px;
+}
+
+.social-media-handles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media-img {
+  width: 40px;
+  height: 40px;
+}
+
+.contact-me-div {
+  color: #3a2b42;
+  margin-left: 43.5%;
+}
+
+.contact-me-form {
+  text-align: left;
+}
+
+.comment-form-div {
+  color: #3a2b42;
+  margin-left: 43.5%;
+  display: none;
+}
+
+.testimonial {
+  background-color: #3a2b42;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.testimonial p {
+  color: #dcaf8f;
+}
+
+#mtb-table {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#strava-img {
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+#location-list-div {
+  text-align: center;
+}
+
+#add-comment-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding: 3px;
+  font-size: 14px;
+}
+
+#comments {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-top: 20px;
+}
+
+#comments p {
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #3a2b42;
+  border-radius: 6px;
+  width: 900px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding: 5px;
+  display: none;
+}
+
+#location-list {
+  display: none;
+}
+
+#location-list-heading {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

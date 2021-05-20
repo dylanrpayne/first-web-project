@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link type="text/css" rel="stylesheet" href="./style.css"> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type='text/javascript' src='./script.js'></script>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="header-navbar">
+                <a href="index.html" class="navbar-home">Cape Town MTB</a>
+                <a class="navbar-buttons" href="aboutMe.html">About Me</a>
+                <a class="navbar-buttons" href="contactMe.html">Contact Me</a>
+                <a class="navbar-buttons" href="saved.html">Saved items</a>
+                <a class="navbar-buttons" href="comments.html">Comments</a>
+                <a name="top"></a>
+            </div>
+            <div class="main-container">
+                <!-- Another required block -->
+                <div class="main-container-heading">
+                    <h1>Comments</h1>
+                </div>
+                <button id="add-comment-button">Add comment</button><br>
+                <div class="comment-form-div">
+                    <form id="contact-me-form">
+                        <label>Name:</label><br>
+                        <input type="text" size="30" id="comment-name-input"><br><br>
+                        <label>Comment:</label><br>
+                        <textarea rows="10" cols="29" id="comment-message-input"></textarea><br><br>
+                        <input type="button" value="Confirm" id="confirm-comment-button">
+                    </form>
+                </div>
+                <div id="comments">
+                    <!-- comments go here -->
+                </div>
+            </div>
+        </header>
+        <footer class="main-footer">
+            <a href="#top" class="back-to-top-btn">Back to top</a>
+        </footer>
+    </body>
+</html>
